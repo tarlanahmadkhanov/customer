@@ -37,4 +37,5 @@ jobs:
           push: true
           tags: |
             tarlanahmadkhanov/customer:latest
+            tarlanahmadkhanov/customer:${{ github.sha }}
           platforms: linux/amd64,linux/arm64
